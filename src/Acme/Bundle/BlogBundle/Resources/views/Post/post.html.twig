@@ -1,0 +1,18 @@
+{% extends "::base.html.twig" %}
+
+{% block title %}AcmeBundleBlogBundle:Post:post{% endblock %}
+
+{% block body %}
+    
+{% for num in ArrNum %}
+    id => {{num.id}} <br/>
+    name => {{num.name}} <br/>
+    rar => {{num.rar}} <br/>
+    <hr/>
+    
+{% endfor %}   
+
+ {{test}}  {{test2}} <br/>
+<h1>Welcome to the Post:post page dfsd </h1>
+
+{% endblock %}
